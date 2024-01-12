@@ -401,6 +401,25 @@ body{
 
 .footer_text{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_info{
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer_text p{
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+span{
+    margin-top: 50px;
+    float: right;
 }
