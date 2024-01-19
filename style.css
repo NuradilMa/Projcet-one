@@ -35,6 +35,23 @@ body{
     height:38px;
     gap: 16px;
 }
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
 .right a{
     text-decoration: none;
     color: #081E34;
@@ -55,8 +72,8 @@ body{
     padding: 10px 12px 10px 12px;
     border-radius: 100px;
     gap: 8px
-
 }
+
 
 /* main style */
 .text{
@@ -211,8 +228,6 @@ body{
     gap: 8px;
     background: #712FFF;
     color: white;
-
-
 }
 
 /* section one style */
@@ -423,3 +438,4 @@ span{
     margin-top: 50px;
     float: right;
 }
+

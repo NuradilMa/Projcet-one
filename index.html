@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JumysTap</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -13,10 +14,13 @@
             <img src="./img/Logo.png" alt="">
         </div>
        <div class="right">
+        <input type="checkbox" id="check">
         <a href="#">Home</a>
         <a href="#">About us</a>
         <a href="#">How it works</a>
+        <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
         <button><p>Get Started</p></button>
+        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
        </div>
     </header>
     
@@ -81,7 +85,6 @@
                     share your CV to get started.</p>
                 </div>
                 <div class="input">
-                    <img src="./img/Search.png" alt="">
                     <input type="text" placeholder="Search for job by keywords">
                     <button>Find Job</button>
                 </div>
@@ -121,6 +124,7 @@
                 <div class="cred">
                     <p>Credits: photos from Unsplash.com, icons from Icons8, graphics from craftwork.design, font Kanit from fonts.google.</p>
                 </div>
+               
             </div>
             <span>Made with ✨❤️ at nFactorial in 2022.</span>
         </div>
